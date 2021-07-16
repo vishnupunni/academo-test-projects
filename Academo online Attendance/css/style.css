@@ -251,15 +251,14 @@ footer pre {
 
     .main .cover{
         position: relative;
-        background: url("/css/resource/bg1.png")no-repeat center;
+        background: url("./resource/bg1.png")no-repeat center;
         background-size: cover;
         height: 50vh;
         width: 100%;
         overflow: hidden;
     }
     .main .content-img{
-        background: url("/css/resource/bg2.jpeg") center;
-        /* background:yellow; */
+        background: url("./resource/bg2.jpeg") center;
         background-size: cover;
         width: 100%;
         overflow: auto;
