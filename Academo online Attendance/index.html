@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- -------fontawsome style------- -->
+    <script src="https://kit.fontawesome.com/24eaab6fb4.js" crossorigin="anonymous"></script>
+    <!-- -------google fonts style------- -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@300&display=swap" rel="stylesheet">
+    <!-- ------coustom style------ -->
+    <link rel="stylesheet" href="css/style.css">
+    <title>Academo Online Attendance</title>
+</head>
+
+<body>
+    <!-- nav Bar -->
+    <nav class="nav">
+        <div class="nav-menu flex-row">
+            <div class="nav-brand">
+                <a href="#"><img src="/css/resource/Academo_logo.png" alt="logo"></a>
+            </div>
+            <div class="toggle-collapse">
+                <div class="toggle-icons">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+
+            <ul class="nav-items">
+
+                <li class="nav-link">
+                    <a href="/home">Home</a>
+                </li>
+                <li class="nav-link">
+                    <a href="#">About Us</a>
+                </li>
+                <li class="nav-link">
+                    <a href="#">Vision</a>
+                </li>
+                <li class="nav-link">
+                    <a href="#">Contact Us</a>
+                </li>
+                <div class="search-bar">
+                    <input class="search-text" type="text" placeholder="Search">
+                    <a class="search-icon" href="#"><i class="fas fa-search"></i></a>
+
+
+                </div>
+            </ul>
+
+        </div>
+    </nav>
+
+    <!-- end of navbar -->
+    <main>
+        <div class="main">
+
+            <section class="cover">
+                <div class="chevron">
+                    <a href="#click"><i class="fas fa-chevron-down"></i></a>
+                </div>
+            </section>
+            <div class="content-img">
+                <div id="table" class="row">
+                    <!-- time in -->
+                    <div class="col-lg-4 col-md-6 col-sm-12 test">
+                        <div class="container">
+                            <div class="in"><br></div>
+                            <h2 class="name1">Time In</h2>
+                            <p>Attendance login</p>
+                            <p><span>* Required </span></p>
+
+                        </div>
+                        <form action="none">
+                            <div class="container">
+                                <label for="name">Name <span>*</span></label>
+                                <input type="text" placeholder="Your answer">
+                            </div>
+                            <div class="container">
+                                <p>Time in <span>*</span></p>
+                                <label for="time">Time</label>
+                                <input class="time-input" type="time" min="12.00" max="18.00">
+                            </div>
+                            <input id="button-in" type="button" value="submit">
+                        </form>
+
+                    </div>
+                    <!-- time Out -->
+
+                    <div class="col-lg-4 col-md-6 col-sm-12 test">
+                        <div class="container">
+                            <div id="out"><br></div>
+                            <h2 class="name1">Time OUT</h2>
+                            <p>Attendance login</p>
+                            <p><span>* Required</span></p>
+                        </div>
+                        <form action="none">
+                            <div class="container">
+                                <label for="name">Name <span>*</span></label>
+                                <input type="text" placeholder="Your answer">
+                            </div>
+                            <div class="container">
+                                <p>Time Out <span>*</span></p>
+                                <label for="time">Time</label>
+                                <input type="time">
+                            </div>
+                            <input id="button-out" type="button" value="submit">
+                        </form>
+                    </div>
+
+                </div>
+
+
+
+            </div>
+        </div>
+        </div>
+
+    </main>
+    <!-- end of table main   -->
+
+
+    <footer id="click">
+
+        <pre>&copy;  2021  Academo  Inc.  All  rights  reserved.</pre>
+
+
+    </footer>
+
+
+
+
+    <script src="./js/jquery3.6.0.min.js"></script>
+    <script src="./js/main.js"></script>
+
+</body>
+
+</html>
