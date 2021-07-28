@@ -278,6 +278,10 @@ footer pre {
 /* -------Small Device------- */
 
 @media (max-width:964px) {
+    .nav-menu .nav-link {
+        padding: 20px 10px 0 0;
+        margin-right: 10px;
+    }
     .container h2 {
         padding: 10px;
         padding-left: 30px;
